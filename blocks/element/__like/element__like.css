@@ -1,18 +1,20 @@
 .element__like {
-    min-width: 20px;
-    height: 18px;
+    min-width: 22px;
+    height: 19px;
+    object-fit: cover;
     padding: 0;
     border: none;
-    background-color: #fff;
-    background-image: url(../images/like.svg);
+    background-color: #ffffff;
+    background-image: url(../../../images/like.svg);
     background-size: contain;
     transition: background-image .3s ease;
 }
 .element__like:hover {
     cursor: pointer;
-    background-image: url(../images/like-hover.svg);
+    opacity: .5;
 }
 .element__like:active {
   cursor: pointer;
-  background-image: url(../images/like-active.svg);
+  background-image: url(../../../images/like-active.svg);
+  opacity: 1;
 }

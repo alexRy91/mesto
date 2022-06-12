@@ -4,13 +4,11 @@
     margin: 0;
     display: grid;
     grid-template-columns: repeat(3, 282px);
-    grid-template-rows: repeat(2, 361px);
-    gap: 20px 18px;
+    gap: 20px 17px;
     justify-content: center;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 990px) {
   .elements__list {
     grid-template-columns: repeat(1, 282px);
-    grid-template-rows: repeat(6, 361px);
   }
 }

@@ -9,7 +9,7 @@
     background: transparent url(../../../images/close-icon.svg) center center / cover no-repeat;
   }
   
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 990px) {
     .popup__button-close {
       width: 20px;
       height: 20px;
@@ -17,7 +17,7 @@
     }
   }
   
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 990px) {
     .popup__button-close {
       right: 0px;
       top: -36px;
