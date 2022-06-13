@@ -4,6 +4,7 @@
     object-fit: cover;
     padding: 0;
     border: none;
+    outline: none;
     background-color: #ffffff;
     background-image: url(../../../images/like.svg);
     background-size: contain;
