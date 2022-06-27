@@ -10,5 +10,8 @@
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
     transition: all 0.3s linear;
-    display: none;
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1s, opacity 0.4s linear;
   }
