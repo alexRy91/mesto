@@ -36,7 +36,7 @@ const profileAboutInput = document.querySelector('.popup__input_data_about');
 const popupProfileEditButtonOpen = document.querySelector('.profile__button-edit');
 const popupProfileEditButtonClose = document.querySelector('.popup__button-close-edit');
 
-const popupFormEdit = document.querySelector('.popup_form-edit');
+const popupFormEdit = document.querySelector('.popup__form_form-edit');
 
 const popupAddForm = document.querySelector('.popup_add');
 const popupAddFormButtonOpen = document.querySelector('.profile__button-add');
@@ -85,7 +85,7 @@ popupAddFormButtonClose.addEventListener('click', () => closeModalWindow(popupAd
 
 
 const elementsContainer = document.querySelector('.elements__list');
-const cardAddForm = document.querySelector('.popup_form-add');
+const cardAddForm = document.querySelector('.popup__form_form-add');
 const cardTemplate = document.querySelector('#card-template');
 
 
