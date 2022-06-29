@@ -33,7 +33,7 @@
   
   <div class="popup popup_edit">
     <div class="popup__container">
-      <form class="popup__form" name="edit">
+      <form class="popup__form popup_form-edit" name="edit">
         <h3 class="popup__title">Редактировать профиль</h3>
         <fieldset class="popup__fieldset">
           <input class="popup__input popup__input_data_name" type="text" name="userName" placeholder="Имя" required="" />
@@ -41,13 +41,13 @@
           <button class="popup__button-save" type="submit" title="Сохранить">Сохранить</button>
         </fieldset>
       </form>
-      <button class="popup__button-close" type="button" title="Закрыть"></button>
+      <button class="popup__button-close popup__button-close-edit" type="button" title="Закрыть"></button>
     </div>
   </div>
 
   <div class="popup popup_add">
     <div class="popup__container">
-      <form class="popup__form" name="add">
+      <form class="popup__form popup_form-add" name="add">
         <h3 class="popup__title">Новое место</h3>
         <fieldset class="popup__fieldset">
           <input class="popup__input popup__input_place_name" type="text" name="userName" placeholder="Название" required="" />
